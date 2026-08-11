@@ -24,7 +24,7 @@ def startLLM():
             text = text.lower()
             
             
-            if text == 'quit':
+            if text in ["quit", "exit", "shutdown", "cancel"]:
                 break 
             formated_prompt = prompt.invoke({"text": text})
             response = llm.invoke(formated_prompt).content
