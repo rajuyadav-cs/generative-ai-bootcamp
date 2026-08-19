@@ -15,6 +15,7 @@ This repo documents my learning journey, experiments, projects, and implementati
 * AI Agents & Tool Calling
 * Structured Outputs
 * LLM Evaluation
+* Streamlit Interface
 
 ## 🛠️ Tech Stack
 
@@ -26,18 +27,19 @@ This repo documents my learning journey, experiments, projects, and implementati
 | LangSmith  | Observability & evaluation        |
 | Pydantic   | Data validation & structured data |
 | LLM APIs   | Working with language models      |
+ Streamlit   | UI interface                      |
 
 ## 📂 Repository Structure
 
 ```text
 generative-ai-bootcamp/
-│
+│---typing_module/
 ├── langchain/
 ├── langgraph/
 ├── langsmith/
 ├── pydantic/
 ├── projects/
-├── assignments/
+├── streamlit/
 └── README.md
 ```
 
@@ -49,7 +51,7 @@ generative-ai-bootcamp/
 * [done] LangChain
 * [done] Pydantic & Structured Outputs
 * [done] RAG
-* [ ] LangGraph
+* [done] LangGraph
 * [ ] LangSmith
 * [ ] LLM Evaluation
 * [ ] End-to-End GenAI Projects
